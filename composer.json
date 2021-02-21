@@ -1,6 +1,6 @@
 {
     "name": "jp/phantomjs",
-    "description": "PhanthomJS for PHP",
+    "description": "PhantomJS for PHP",
     "type": "composer-plugin",
     "authors": [
         {
@@ -8,5 +8,18 @@
             "email": "paulojp.dev@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PhantomJs\\": "src/"
+        },
+        "files": [
+            "src/Core/helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
 }
