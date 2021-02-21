@@ -1,0 +1,12 @@
+{
+    "name": "jp/phantomjs",
+    "description": "PhanthomJS for PHP",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "João Paulo Ferreira",
+            "email": "paulojp.dev@gmail.com"
+        }
+    ],
+    "require": {}
+}
