@@ -8,7 +8,16 @@
             "email": "paulojp.dev@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.4.0",
+        "rappasoft/laravel-helpers": "^1.0"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "phpunit/phpunit": "^9.5",
+        "larapack/dd": "^1.1"
+    },
     "autoload": {
         "psr-4": {
             "PhantomJs\\": "src/"
